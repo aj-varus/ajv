@@ -14,6 +14,6 @@ namespace ConsignmentShop
 
         }
 
-
+        public string Display => $"{this.Name}, {this.Price}";
     }
 }
